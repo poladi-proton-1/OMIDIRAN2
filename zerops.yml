@@ -3,8 +3,8 @@ zerops:
     run:
       base: docker@latest
       prepareCommands:
-        - docker image pull ghcr.io/omid56test2/omidiran2:sha-c799c55
-      start: docker run --network=host ghcr.io/omid56test2/omidiran2:sha-c799c55
+        - docker image pull ghcr.io/omid56test2/omidiran2:latest
+      start: docker run --network=host ghcr.io/omid56test2/omidiran2:latest
       ports:
         - port: 8000
           httpSupport: true
